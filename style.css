@@ -42,9 +42,19 @@
     transform: translate(-50%, -50%);
 }
 
-#input {
+.text1{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 6px;
+    color: #6a5542;
+}
+
+.text1 i{
+    font-size: 12px;
+}
+
+#guess {
     position: relative;
-    left: 11px;
     width: 250px;
     outline: none;
     text-align: center;
@@ -56,24 +66,15 @@
     border-radius: 13px;
     font-family: 'poppins';
     caret-color: #fff;
+    color: #fff;
 }
-
-#submit{
-    position: relative;
-    outline: none;
-    border: none;
-    right: 30px;
-    top: 4px;
-    font-size: 18px;
-    background-color: transparent;
-}
-
-#submit:hover{
-    cursor: pointer;
-}
-
 .prev{
     margin-top: 15px;
     display: block;
     text-align: center;
 }
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+  }
