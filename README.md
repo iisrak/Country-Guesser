@@ -15,8 +15,7 @@ You have 7 guesses to figure out the mystery country. With each guess, you'll re
 6. Country National Dish
 
 **Pro Tips:**
-- Type 'checkdone' to see your guessed countries.
-- Type 'imnotworthyandiwillneversucceed' for the answer if you're feeling defeated.
+- don't give up <3
 
 GOOD LUCK! 🍀 Press 'enter' to embark on your global adventure!
 
