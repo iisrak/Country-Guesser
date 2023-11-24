@@ -28,14 +28,25 @@ loadData()
                 event.preventDefault();
                 var inputElement = document.getElementById("guess");
                 var inputValue = inputElement.value;
-                console.log(inputValue);
+                var gameOver = false;
+                var guessCount = 1;
 
-                if (val.allCountries.includes(inputValue)){
-                    console.log('there');
+                if(!val.allCountries.includes(inputValue)){
+                    Swal.fire({
+                        title: "Something doesn't look right!",
+                        icon: "warning",
+                        html: `<span style="color:#F8BB86; font-weight: bold; font-size: 13px;">it could be for the following reasons:</span><br>• Country not yet added to database<br>• You may have misspelt the country's name<br>• You may have misspelt the country's name<br>• You may have left the input field blank`,
+                        confirmButtonText: "Understood!",
+                        allowOutsideClick: false,
+                        allowEscapeKey: false,
+                        confirmButtonColor: "#8f745b",
+                        customClass: 'customcss',
+                    });
                 }
                 else{
-                    console.log('not there');
+                    console.log('2')
                 }
+
             }
         });
 

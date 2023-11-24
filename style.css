@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+body{
     background-color: #8f745b;
     font-family: 'poppins';
     color: #fff;
@@ -31,8 +34,18 @@
     transition: all .2s ease;
 }
 
+.icons i{
+    padding: 10px;
+    margin: 6px 15px 6px 15px;
+    font-size: 25px;
+    opacity: 0.5;
+    transition: all .2s ease;
+}
+
+
 .icons i:hover{
     transform: translateY(-5px);
+    opacity: 1;
 }
 
 .input{
@@ -74,7 +87,15 @@
     text-align: center;
 }
 
-.autocomplete {
-    position: relative;
-    display: inline-block;
-  }
+.customcss{
+    background-color: #6a5542;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.swal2-modal .swal2-styled:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+    border: 2px solid #f8bb8659;
+}

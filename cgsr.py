@@ -124,7 +124,7 @@ while gameOver == False:
         # print(random_country)
         gscheck()
         guess = input('Guess a country:\n').casefold()
-        if guess == random_country and guessCount == 0:
+        if guess == random_country and guessCount == 1:
             print('That was crazy. dont be doing that. its a bit scary you got that first try...')
             gameOver = True
         elif guess == random_country and guessCount > 0:
