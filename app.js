@@ -1,6 +1,18 @@
 var input = document.getElementById("guess");
 var guessList = [];
 var guessCount = 1;
+var gameWon = false;
+
+function comingsoon(){
+    Swal.fire({
+        title: 'Feature coming soon!',
+        confirmButtonText: "Gocha!",
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+        confirmButtonColor: "#8f745b",
+        customClass: 'customcss',
+    });
+}
 
 async function loadData() {
     const response = await fetch('countryList.json');
@@ -9,6 +21,9 @@ async function loadData() {
     const randomIndex = Math.floor(Math.random() * countries.length);
     const randomCountry = countries[randomIndex];
     const countryArray = Object.keys(data);
+
+    console.log(randomCountry);
+
     return {
         randomCountry: randomCountry,
         population: data[randomCountry].population,
@@ -16,7 +31,7 @@ async function loadData() {
         continent: data[randomCountry].continent,
         averageTemperature: data[randomCountry].average_temperature,
         nationalDish: data[randomCountry].national_dish,
-        allCountries: countryArray          
+        allCountries: countryArray     
     };
 }
 
@@ -28,74 +43,33 @@ loadData()
                 event.preventDefault();
                 var inputElement = document.getElementById("guess");
                 var inputValue = (inputElement.value).toLowerCase();
-                var gameOver = false;
-
-                if(guessCount == 8){
-                    gameOver = true;
-                }
-                else{
-                    gameOver = false;
-                }
-
-                if (inputValue == val.randomCountry){
-                    gameOver = true;
-                }
-                else{
-                    gameOver = false
-                }
 
                 const sassyPhrases = [
-                    "A for effort, F for accuracy.",
-                    "Close, but no intellectual cigar.",
-                    "That guess is a scenic route to wrong.",
-                    "Strike one! But at least you swung.",
-                    "Nope, not even in the same universe.",
-                    "Bless your heart, but it's a miss.",
-                    "Incorrect, but nice fiction attempt.",
-                    "Your guess is lost in translation.",
-                    "Wrong answer, right spirit animal.",
-                    "Nice try, but GPS rerouting needed.",
-                    "Air ball! Swing and a wild miss – classic.",
-                    "Incorrect, but creativity points awarded.",
-                    "Strike two! Swing and a cosmic miss, astronaut.",
-                    "Bless your heart, wrong ballpark.",
-                    "Nope, your compass is drunk.",
-                    "Wrong answer, right vibe though.",
-                    "Incorrect, but applause for confidence.",
-                    "Strike three! Swing and a miss, but stylish swing.",
-                    "Bless your heart, but off the mark.",
-                    "Wrong answer, right comedy material.",
-                    "Nice try, but not even warm.",
-                    "Incorrect, but applause for trying.",
-                    "Whiff! Swing and a miss, but stylish miss.",
-                    "Wrong answer, but entertaining effort.",
-                    "Bless your heart, but not even close.",
-                    "Incorrect, but nice robot dance attempt.",
-                    "Strike four! Swing and a cosmic miss – out of orbit.",
-                    "Wrong answer, but vintage attempt.",
-                    "Nice try, but puzzle piece mismatch.",
-                    "Bless your heart, square peg issue.",
-                    "Incorrect, but applause for trying.",
-                    "Strike five! Swing and a miss, detective.",
-                    "Wrong answer, wrong treasure hunt.",
-                    "Nice try, but puzzle piece mismatch.",
-                    "Incorrect, parallel parking fail.",
-                    "Whiff! Swing and a miss, spaceship edition.",
-                    "Wrong answer, different wavelength.",
-                    "Bless your heart, checkers in chess.",
-                    "Incorrect, cake recipe mishap.",
-                    "Strike six! Swing and a miss, emoji spotting.",
-                    "Wrong answer, missing plot twist.",
-                    "Nice try, but Pacific pool noodle fail.",
-                    "Incorrect, unicorn-catching fail.",
-                    "Strike seven! Swing and a miss, giraffe vs. Fiat.",
-                    "Wrong answer, quantum goldfish fail.",
-                    "Nice try, but needle night vision needed.",
-                    "Whiff! Swing and a miss, limbo under the bar of correctness.",
-                    "Wrong answer, solo performance struggle.",
-                    "Bless your heart, maze blindfold fail."
-                  ];
-
+                    "A+ in creative thinking, but I'm afraid we're grading on reality here.",
+                    "Gold star for imagination, but we're aiming for correctness, not fantasy.",
+                    "Nice attempt, but we're looking for answers that exist outside of daydreams.",
+                    "If effort was a currency, you'd be a billionaire. Unfortunately, we deal in correct answers.",
+                    "You're in a league of your own... unfortunately, it's the wrong league.",
+                    "The creativity is off the charts, but the accuracy seems to be lost in translation.",
+                    "Your guess was so original; I almost forgot we were looking for the right answer.",
+                    "The effort is so palpable; I can almost taste it. Too bad it doesn't taste like correctness.",
+                    "You're charting new territories in guessing. Unfortunately, we're staying on the map.",
+                    "Bravo on the imagination! Pity we're seeking factual correctness, not fiction.",
+                    "In a world of accuracy, you're the Picasso of incorrectness.",
+                    "I appreciate the boldness of your guess. Unfortunately, boldness isn't on the answer key.",
+                    "You're on a roll... just not the correct answer kind of roll.",
+                    "I see you've unlocked the secret level of creativity. Unfortunately, we're still on level one of correctness.",
+                    "Your answer is so far from the mark; I think it's on vacation.",
+                    "A round of applause for thinking outside the box. Now, let's get back inside the realm of right answers.",
+                    "Your guess is like a shooting star—bright, brief, and nowhere close to Earth.",
+                    "I didn't know we were playing 20 Questions, but I appreciate the effort in the wrong direction.",
+                    "If guessing incorrectly were an Olympic sport, you'd be a gold medalist.",
+                    "Your answer is so unique; I'm starting to wonder if we're even playing the same game.",
+                    "Congratulations on winning the award for the most unexpected response. Too bad it's not the correct award.",
+                    "You've got a gift for surprises; too bad we were hoping for the predictable kind of correctness.",
+                    "Your guess is like a rare vintage—valuable to collectors, but not in the realm of correctness."
+                ];
+                  
                 function getRandomSassyPhrase() {
                     const randomIndex = Math.floor(Math.random() * sassyPhrases.length);
                     return sassyPhrases[randomIndex];
@@ -108,7 +82,7 @@ loadData()
                     Swal.fire({
                         title: "Something doesn't look right!",
                         icon: "warning",
-                        html: `<span style="color:#F8BB86; font-weight: bold; font-size: 13px;">it could be for the following reasons:</span><br>• Country not yet added to database<br>• You may have misspelt the country's name<br>• You may have misspelt the country's name<br>• You may have left the input field blank`,
+                        html: `<span style="color:#F8BB86; font-weight: bold; font-size: 13px;">it could be for the following reasons:</span><br>• Country not yet added to database<br>• You may have misspelt the country's name<br>• You may have left the input field blank`,
                         confirmButtonText: "Understood!",
                         allowOutsideClick: false,
                         allowEscapeKey: false,
@@ -171,6 +145,20 @@ loadData()
                             ul.appendChild(li);
                         }
                     }
+                    else{
+                        Swal.fire({
+                            title: "Well done!",
+                            icon: "success",
+                            html: 'The country was: ' + val.randomCountry +  '<br>Guesses: ' + guessCount,
+                            confirmButtonText: "New Game",
+                            allowOutsideClick: false,
+                            allowEscapeKey: false,
+                            confirmButtonColor: "#8f745b",
+                            customClass: 'customcss',
+                        }).then(function() {
+                            location.reload();
+                        });
+                    }
                 }
                 else{
                     Swal.fire({
@@ -182,6 +170,20 @@ loadData()
                         customClass: 'customcss',
                     });
                     document.getElementById('guess').value = '';
+                }
+                if(guessCount == 8 & gameWon == false){
+                    Swal.fire({
+                        title: "Yikes!",
+                        icon: "error",
+                        html: 'The country was: ' + val.randomCountry + '<br>Better luck next time buddy <3',
+                        confirmButtonText: "New Game",
+                        allowOutsideClick: false,
+                        allowEscapeKey: false,
+                        confirmButtonColor: "#8f745b",
+                        customClass: 'customcss',
+                    }).then(function() {
+                        location.reload();
+                    });
                 }
             
             }
