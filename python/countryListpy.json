@@ -1,0 +1,849 @@
+{
+    "england": {
+        "population": "56,000,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "10.0 °C",
+        "national_dish": "Chicken Tikka Masala"
+    },
+    "france": {
+        "population": "67,000,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "12.0 °C",
+        "national_dish": "Coq au Vin"
+    },
+    "germany": {
+        "population": "83,000,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "9.0 °C",
+        "national_dish": "Sauerbraten"
+    },
+    "italy": {
+        "population": "60,000,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "15.0 °C",
+        "national_dish": "Ragu alla Bolognese"
+    },
+    "spain": {
+        "population": "47,000,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "18.0 °C",
+        "national_dish": "Paella"
+    },
+    "portugal": {
+        "population": "10,280,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "16.0 °C",
+        "national_dish": "Bacalhau"
+    },
+    "netherlands": {
+        "population": "17,400,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "8.0 °C",
+        "national_dish": "Stroopwafels"
+    },
+    "belgium": {
+        "population": "11,500,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "10.0 °C",
+        "national_dish": "Moules Frites"
+    },
+    "switzerland": {
+        "population": "8,650,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "8.0 °C",
+        "national_dish": "Rösti"
+    },
+    "austria": {
+        "population": "8,900,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "6.0 °C",
+        "national_dish": "Wiener Schnitzel"
+    },
+    "sweden": {
+        "population": "10,380,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "6.0 °C",
+        "national_dish": "Swedish Meatballs"
+    },
+    "norway": {
+        "population": "5,368,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "2.0 °C",
+        "national_dish": "Rakfisk"
+    },
+    "denmark": {
+        "population": "5,792,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "8.0 °C",
+        "national_dish": "Smørrebrød"
+    },
+    "ireland": {
+        "population": "4,921,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "10.0 °C",
+        "national_dish": "Irish Stew"
+    },
+    "scotland": {
+        "population": "5,450,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "8.0 °C",
+        "national_dish": "Haggis"
+    },
+    "wales": {
+        "population": "3,150,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "9.0 °C",
+        "national_dish": "Cawl"
+    },
+    "iceland": {
+        "population": "343,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "5.0 °C",
+        "national_dish": "Hangikjöt"
+    },
+    "greece": {
+        "population": "10,740,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "17.0 °C",
+        "national_dish": "Moussaka"
+    },
+    "turkey": {
+        "population": "82,320,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "14.0 °C",
+        "national_dish": "Kebab"
+    },
+    "poland": {
+        "population": "38,380,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "8.0 °C",
+        "national_dish": "Bigos"
+    },
+    "czech republic": {
+        "population": "10,700,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "9.0 °C",
+        "national_dish": "Svíčková"
+    },
+    "hungary": {
+        "population": "9,773,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "11.0 °C",
+        "national_dish": "Goulash"
+    },
+    "romania": {
+        "population": "19,520,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "11.0 °C",
+        "national_dish": "Mămăligă"
+    },
+    "bulgaria": {
+        "population": "7,000,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "12.0 °C",
+        "national_dish": "Banitsa"
+    },
+    "russia": {
+        "population": "145,912,025",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe/Asia",
+        "average_temperature": "-5.0 °C",
+        "national_dish": "Pelmeni"
+    },
+    "china": {
+        "population": "1,442,161,107",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "12.0 °C",
+        "national_dish": "Peking Duck"
+    },
+    "india": {
+        "population": "1,393,409,038",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "25.0 °C",
+        "national_dish": "Khichdi"
+    },
+    "japan": {
+        "population": "125,710,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "16.0 °C",
+        "national_dish": "Sushi"
+    },
+    "canada": {
+        "population": "38,008,005",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "North America",
+        "average_temperature": "-5.0 °C",
+        "national_dish": "Poutine"
+    },
+    "brazil": {
+        "population": "213,993,437",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "South America",
+        "average_temperature": "24.0 °C",
+        "national_dish": "Feijoada"
+    },
+    "south africa": {
+        "population": "60,041,994",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "22.0 °C",
+        "national_dish": "Bobotie"
+    },
+    "mexico": {
+        "population": "126,190,788",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "North America",
+        "average_temperature": "25.0 °C",
+        "national_dish": "Tacos"
+    },
+    "argentina": {
+        "population": "45,376,763",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "South America",
+        "average_temperature": "18.0 °C",
+        "national_dish": "Asado"
+    },
+    "thailand": {
+        "population": "69,799,978",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "28.0 °C",
+        "national_dish": "Pad Thai"
+    },
+    "nigeria": {
+        "population": "206,139,589",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Jollof Rice"
+    },
+    "saudi arabia": {
+        "population": "34,813,871",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "30.0 °C",
+        "national_dish": "Kabsa"
+    },
+    "south korea": {
+        "population": "51,269,185",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "12.0 °C",
+        "national_dish": "Kimchi"
+    },
+    "vietnam": {
+        "population": "97,338,579",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "25.0 °C",
+        "national_dish": "Pho"
+    },
+    "singapore": {
+        "population": "5,896,686",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Hainanese Chicken Rice"
+    },
+    "new zealand": {
+        "population": "5,112,300",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "15.0 °C",
+        "national_dish": "Hangi"
+    },
+    "malaysia": {
+        "population": "32,365,999",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Nasi Lemak"
+    },
+    "israel": {
+        "population": "8,655,535",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "23.0 °C",
+        "national_dish": "Falafel"
+    },
+    "northern ireland": {
+        "population": "1,901,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "9.0 °C",
+        "national_dish": "Ulster Fry"
+    },
+    "chile": {
+        "population": "19,458,310",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "South America",
+        "average_temperature": "11.0 °C",
+        "national_dish": "Empanadas"
+    },
+    "swaziland": {
+        "population": "1,160,164",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "20.0 °C",
+        "national_dish": "Umqombothi"
+    },
+    "lebanon": {
+        "population": "6,825,445",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "20.0 °C",
+        "national_dish": "Kibbeh"
+    },
+    "cuba": {
+        "population": "11,326,616",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "North America",
+        "average_temperature": "25.0 °C",
+        "national_dish": "Ropa Vieja"
+    },
+    "ghana": {
+        "population": "31,072,940",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "27.0 °C",
+        "national_dish": "fufu"
+    },
+    "egypt": {
+        "population": "104,258,327",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "24.0 °C",
+        "national_dish": "Koshari"
+    },
+    "kenya": {
+        "population": "54,985,698",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "20.0 °C",
+        "national_dish": "Ugali"
+    },
+    "philippines": {
+        "population": "113,046,913",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Adobo"
+    },
+    "angola": {
+        "population": "32,866,272",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "22.0 °C",
+        "national_dish": "Muamba de Galinha"
+    },
+    "peru": {
+        "population": "32,971,854",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "South America",
+        "average_temperature": "18.0 °C",
+        "national_dish": "Ceviche"
+    },
+    "morocco": {
+        "population": "36,910,560",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "20.0 °C",
+        "national_dish": "Couscous"
+    },
+    "ethiopia": {
+        "population": "118,776,082",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "20.0 °C",
+        "national_dish": "Doro Wat"
+    },
+    "ukraine": {
+        "population": "41,369,362",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "8.0 °C",
+        "national_dish": "Borscht"
+    },
+    "algeria": {
+        "population": "43,851,043",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "24.0 °C",
+        "national_dish": "Couscous"
+    },
+    "iraq": {
+        "population": "41,179,350",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "23.0 °C",
+        "national_dish": "Dolma"
+    },
+    "afghanistan": {
+        "population": "39,835,428",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "12.0 °C",
+        "national_dish": "Kabuli Pulao"
+    },
+    "mozambique": {
+        "population": "31,255,435",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "24.0 °C",
+        "national_dish": "Matapa"
+    },
+    "uzbekistan": {
+        "population": "34,383,113",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "14.0 °C",
+        "national_dish": "Plov"
+    },
+    "yemen": {
+        "population": "30,491,052",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "26.0 °C",
+        "national_dish": "Saltah"
+    },
+    "madagascar": {
+        "population": "27,691,018",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "21.0 °C",
+        "national_dish": "Romazava"
+    },
+    "north korea": {
+        "population": "25,778,816",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "4.0 °C",
+        "national_dish": "Kimchi"
+    },
+    "cameroon": {
+        "population": "26,545,863",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "24.0 °C",
+        "national_dish": "Ndolé"
+    },
+    "ivory coast": {
+        "population": "26,378,274",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Attieke"
+    },
+    "australia": {
+        "population": "25,720,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "22.0 °C",
+        "national_dish": "Meat Pie"
+    },
+    "niger": {
+        "population": "24,206,644",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "28.0 °C",
+        "national_dish": "Djermia"
+    },
+    "burkina faso": {
+        "population": "20,903,273",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "28.0 °C",
+        "national_dish": "Riz Gras"
+    },
+    "mali": {
+        "population": "20,250,833",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "29.0 °C",
+        "national_dish": "Tiep Bou Dienn"
+    },
+    "finland": {
+        "population": "5,547,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "-1.8 °C",
+        "national_dish": "Karjalanpiirakka"
+      },
+      "luxembourg": {
+        "population": "634,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "10.9 °C",
+        "national_dish": "Judd mat Gaardebounen"
+      },
+      "estonia": {
+        "population": "1,326,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "5.2 °C",
+        "national_dish": "Verivorst"
+      },
+      "latvia": {
+        "population": "1,859,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "6.2 °C",
+        "national_dish": "Rupjmaize"
+      },
+      "lithuania": {
+        "population": "2,794,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "7.0 °C",
+        "national_dish": "Cepelinai"
+      },
+      "croatia": {
+        "population": "4,057,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "13.4 °C",
+        "national_dish": "Pasticada"
+      },
+      "slovenia": {
+        "population": "2,078,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "10.2 °C",
+        "national_dish": "Idrijski žlikrofi"
+      },
+      "bosnia_and_herzegovina": {
+        "population": "3,280,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "11.5 °C",
+        "national_dish": "Ćevapi"
+      },
+      "montenegro": {
+        "population": "622,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "15.0 °C",
+        "national_dish": "Njeguški pršut"
+      },
+      "serbia": {
+        "population": "6,963,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "12.1 °C",
+        "national_dish": "Ćevapi"
+      },
+      "north_macedonia": {
+        "population": "2,083,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "11.3 °C",
+        "national_dish": "Tavče Gravče"
+      },
+      "kosovo": {
+        "population": "1,797,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "11.9 °C",
+        "national_dish": "Flia"
+      },
+      "albania": {
+        "population": "2,877,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "15.5 °C",
+        "national_dish": "Tavë kosi"
+      },
+      "moldova": {
+        "population": "2,635,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "10.0 °C",
+        "national_dish": "Mămăligă"
+      },
+      "belarus": {
+        "population": "9,383,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Europe",
+        "average_temperature": "5.9 °C",
+        "national_dish": "Draniki"
+      },
+      "armenia": {
+        "population": "2,968,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "11.0 °C",
+        "national_dish": "Dolma"
+      },
+      "azerbaijan": {
+        "population": "10,142,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "12.0 °C",
+        "national_dish": "Plov"
+      },
+      "georgia": {
+        "population": "3,716,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "13.7 °C",
+        "national_dish": "Khachapuri"
+      },
+      "kazakhstan": {
+        "population": "18,994,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "2.8 °C",
+        "national_dish": "Beshbarmak"
+      },
+      "turkmenistan": {
+        "population": "6,031,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "12.8 °C",
+        "national_dish": "Palaw"
+      },
+      "kyrgyzstan": {
+        "population": "6,635,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "7.2 °C",
+        "national_dish": "Beshbarmak"
+      },
+      "tajikistan": {
+        "population": "9,537,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "4.9 °C",
+        "national_dish": "Plov"
+      },
+      "mongolia": {
+        "population": "3,353,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "-1.3 °C",
+        "national_dish": "Buuz"
+      },
+      "nepal": {
+        "population": "29,136,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "17.3 °C",
+        "national_dish": "Dal Bhat"
+      },
+      "bhutan": {
+        "population": "763,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "10.0 °C",
+        "national_dish": "Ema Datshi"
+      },
+      "sri_lanka": {
+        "population": "21,413,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Rice and Curry"
+      },
+      "maldives": {
+        "population": "521,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "28.0 °C",
+        "national_dish": "Mas Huni"
+      },
+      "myanmar": {
+        "population": "54,339,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "25.0 °C",
+        "national_dish": "Mohinga"
+      },
+      "laos": {
+        "population": "7,169,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "25.0 °C",
+        "national_dish": "Laap"
+      },
+      "cambodia": {
+        "population": "16,718,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Asia",
+        "average_temperature": "26.0 °C",
+        "national_dish": "Amok"
+      },
+      "papua_new_guinea": {
+        "population": "8,947,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "25.7 °C",
+        "national_dish": "Mumu"
+      },
+      "fiji": {
+        "population": "896,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "25.0 °C",
+        "national_dish": "Kokoda"
+      },
+      "samoa": {
+        "population": "199,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "26.0 °C",
+        "national_dish": "Palusami"
+      },
+      "tonga": {
+        "population": "105,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "23.0 °C",
+        "national_dish": "Lu Sipi"
+      },
+      "tuvalu": {
+        "population": "12,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "28.0 °C",
+        "national_dish": "Palusami"
+      },
+      "kiribati": {
+        "population": "120,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "28.0 °C",
+        "national_dish": "Teba"
+      },
+      "marshall_islands": {
+        "population": "58,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Iakwe"
+      },
+      "palau": {
+        "population": "18,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Bai"
+      },
+      "micronesia": {
+        "population": "116,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Ramen"
+      },
+      "nauru": {
+        "population": "11,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Tuna and Coconut"
+      },
+      "vanuatu": {
+        "population": "314,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Oceania",
+        "average_temperature": "25.0 °C",
+        "national_dish": "Lap Lap"
+      },
+      "comoros": {
+        "population": "869,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "26.0 °C",
+        "national_dish": "Langouste a la Vanille"
+      },
+      "seychelles": {
+        "population": "98,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "27.0 °C",
+        "national_dish": "Fish Curry"
+      },
+      "mauritius": {
+        "population": "1,271,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "23.0 °C",
+        "national_dish": "Dholl Puri"
+      },
+      "malawi": {
+        "population": "20,290,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "22.0 °C",
+        "national_dish": "Nsima"
+      },
+      "zambia": {
+        "population": "18,882,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "21.0 °C",
+        "national_dish": "Nshima"
+      },
+      "zimbabwe": {
+        "population": "15,090,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "22.0 °C",
+        "national_dish": "Sadza"
+      },
+      "rwanda": {
+        "population": "13,299,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "20.0 °C",
+        "national_dish": "Isombe"
+      },
+      "burundi": {
+        "population": "11,890,000",
+        "hemisphere": "Southern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "20.0 °C",
+        "national_dish": "Beans and Rice"
+      },
+      "united_states": {
+        "population": "331,002,651",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "North America",
+        "average_temperature": "12.6 °C",
+        "national_dish": "Hamburger"
+      },
+      "south_sudan": {
+        "population": "12,810,000",
+        "hemisphere": "Northern Hemisphere",
+        "continent": "Africa",
+        "average_temperature": "29.0 °C",
+        "national_dish": "Kisra"
+      }
+}    

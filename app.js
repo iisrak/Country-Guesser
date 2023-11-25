@@ -149,7 +149,7 @@ loadData()
                         Swal.fire({
                             title: "Well done!",
                             icon: "success",
-                            html: 'The country was: ' + val.randomCountry +  '<br>Guesses: ' + guessCount,
+                            html: 'The country was: ' + val.randomCountry +  '<br>Guesses: ' + guessCoun,
                             confirmButtonText: "New Game",
                             allowOutsideClick: false,
                             allowEscapeKey: false,

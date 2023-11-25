@@ -39,7 +39,7 @@ guessCount = 1
 correctGuess = False
 gameOver = False
 
-with open('countryList.json', 'r') as file:
+with open('./countryListpy.json', 'r') as file:
     countryies = file.read()
 
 country_data =  json.loads(countryies)
@@ -121,7 +121,6 @@ while gameOver == False:
             print('you have ' + str(gleft+1) + ' guesses left')
         else:
             print('LAST GUESS!')
-        # print(random_country)
         gscheck()
         guess = input('Guess a country:\n').casefold()
         if guess == random_country and guessCount == 1:
