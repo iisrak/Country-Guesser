@@ -14,21 +14,34 @@
 </head>
 <body>
     <div class="icons">
-        <i class="fa-solid fa-medal" style="color: #ffffff;"></i>
-        <i class="fa-solid fa-question" style="color: #fff;"></i>
-        <i class="fa-brands fa-discord" style="color: #ffffff;"></i>
-        <i class="fa-solid fa-coins" style="color: #ffffff;"></i>
+        <a href="" target="_blank"><i class="fa-solid fa-medal" style="color: #ffffff;"></i></a>
+        <a href="" target="_blank"><i class="fa-solid fa-question" style="color: #fff;"></i></a>
+        <a href="https://github.com/NotWally" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+        <a href="" target="_blank"><i class="fa-solid fa-coins" style="color: #ffffff;"></i></a>
     </div>
     <div class="container">
+        <div class="clueContainer" id="clueContainer">
+            <h3>Clues</h3>
+            <ul class="clues">
+
+            </ul>
+        </div>
+        <div class="prev" id="prev">
+            <h3>Previous Guesses</h3>
+            <ul class="prevGuesses">
+
+            </ul>
+        </div>
         <div class="input">
             <p class="text1"><i class="fa-solid fa-sort-down" style="color: #6a5542;"></i> make your guess here <i class="fa-solid fa-sort-down" style="color: #6a5542;"></i></p>
             <input type="text" id="guess">
-            <div class="prev">
-                <h3>Previous Guesses</h3>
-            </div>
         </div>
-    </div>
-    <script src="app.js"></script>
+
+        <footer>
+            <p class="by">By Alex Nedelcu</p>
+        </footer>
+
     <script src="sweetalert2.all.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
