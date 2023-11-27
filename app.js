@@ -94,7 +94,7 @@ loadData()
                 else if(!guessList.includes(inputValue)){
                     if(inputValue != val.randomCountry ){
                         Swal.fire({
-                            title: randomSassyPhrase,
+                            html: randomSassyPhrase,
                             confirmButtonText: "Try again!",
                             allowOutsideClick: false,
                             allowEscapeKey: false,
