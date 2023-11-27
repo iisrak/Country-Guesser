@@ -538,7 +538,7 @@
         "average_temperature": "10.2 °C",
         "national_dish": "Idrijski žlikrofi"
       },
-      "bosnia_and_herzegovina": {
+      "bosnia and herzegovina": {
         "population": "3,280,000",
         "hemisphere": "Northern Hemisphere",
         "continent": "Europe",
@@ -559,7 +559,7 @@
         "average_temperature": "12.1 °C",
         "national_dish": "Ćevapi"
       },
-      "north_macedonia": {
+      "north macedonia": {
         "population": "2,083,000",
         "hemisphere": "Northern Hemisphere",
         "continent": "Europe",
@@ -664,7 +664,7 @@
         "average_temperature": "10.0 °C",
         "national_dish": "Ema Datshi"
       },
-      "sri_lanka": {
+      "sri lanka": {
         "population": "21,413,000",
         "hemisphere": "Northern Hemisphere",
         "continent": "Asia",
@@ -699,7 +699,7 @@
         "average_temperature": "26.0 °C",
         "national_dish": "Amok"
       },
-      "papua_new_guinea": {
+      "papua new guinea": {
         "population": "8,947,000",
         "hemisphere": "Southern Hemisphere",
         "continent": "Oceania",
@@ -832,14 +832,14 @@
         "average_temperature": "20.0 °C",
         "national_dish": "Beans and Rice"
       },
-      "united_states": {
+      "united states": {
         "population": "331,002,651",
         "hemisphere": "Northern Hemisphere",
         "continent": "North America",
         "average_temperature": "12.6 °C",
         "national_dish": "Hamburger"
       },
-      "south_sudan": {
+      "south sudan": {
         "population": "12,810,000",
         "hemisphere": "Northern Hemisphere",
         "continent": "Africa",
