@@ -109,7 +109,7 @@ loadData()
                         ul.appendChild(li);
                         guessList.push(inputValue);
                         console.log(guessList);
-                        if (guessCount > 1){
+                        if (guessCount == 2){
                             document.getElementById("clueContainer").setAttribute("style","opacity:1; -moz-opacity:1; filter:alpha(opacity=100)");
                             document.getElementById("prev").setAttribute("style","opacity:1; -moz-opacity:1; filter:alpha(opacity=100)");
                             console.log('works')
@@ -117,28 +117,34 @@ loadData()
                         if (guessCount == 2){
                             const ul = document.querySelector('.clues');
                             const li = document.createElement('li');
-                            li.innerText = 'Population: ' + val.population;
+                            li.innerText = 'Letters in name: ' + (val.randomCountry.length);
                             ul.appendChild(li);
                         }
                         if (guessCount == 3){
                             const ul = document.querySelector('.clues');
                             const li = document.createElement('li');
-                            li.innerText = val.hemisphere;
+                            li.innerText = 'Population: ' + val.population;
                             ul.appendChild(li);
                         }
                         if (guessCount == 4){
                             const ul = document.querySelector('.clues');
                             const li = document.createElement('li');
-                            li.innerText = 'Continent: ' + val.continent;
+                            li.innerText = val.hemisphere;
                             ul.appendChild(li);
                         }
                         if (guessCount == 5){
                             const ul = document.querySelector('.clues');
                             const li = document.createElement('li');
-                            li.innerText = 'Average Temp: ' + val.averageTemperature;
+                            li.innerText = 'Continent: ' + val.continent;
                             ul.appendChild(li);
                         }
                         if (guessCount == 6){
+                            const ul = document.querySelector('.clues');
+                            const li = document.createElement('li');
+                            li.innerText = 'Average Temp: ' + val.averageTemperature;
+                            ul.appendChild(li);
+                        }
+                        if (guessCount == 7){
                             const ul = document.querySelector('.clues');
                             const li = document.createElement('li');
                             li.innerText = 'National Dish: ' + val.nationalDish;
